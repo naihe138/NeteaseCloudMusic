@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-const Recommend = () => import(/* webpackChunkName: "recommend" */ '../view/recommend/index.vue')
+const Recommend = () => import(/* webpackChunkName: "recommend" */ '../views/recommend/index.vue')
 Vue.use(VueRouter)
 
 const router = new VueRouter({
