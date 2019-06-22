@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="test">{{count}}</p>
-    <button @click="add">+</button>
+    <button @click="add">+ <i class="iconfont iconbofang"></i></button>
   </div>
 </template>
 

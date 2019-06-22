@@ -8,10 +8,10 @@ let mainWindow
 
 function createWindow () {
   mainWindow = new BrowserWindow({
-    minWidth: 800,
-    minHeight: 600,
+    minWidth: 1002,
+    minHeight: 670,
     frame: false,
-    // backgroundColor: '#2e2c29',
+    backgroundColor: '#2e2c29',
     webPreferences: {
       nodeIntegration: true,
       nativeWindowOpen: true,
@@ -44,7 +44,7 @@ app.on('activate', function () {
 ipcMain.on('window-size', (event, arg) => {
   console.log(arg)
   if (arg === 'close') {
-    mainWindow.setSize(800, 600, true)
+    mainWindow.setSize(1002, 670, true)
   } else if (arg === 'min') {
     mainWindow.minimize()
   } else {

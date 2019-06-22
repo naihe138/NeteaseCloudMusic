@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-const Bar = () => import(/* webpackChunkName: "group-bar" */ '../view/bar.vue')
-const Baz = () => import(/* webpackChunkName: "group-baz" */ '../view/baz.vue')
-console.log(Baz)
+const Recommend = () => import(/* webpackChunkName: "recommend" */ '../view/recommend/index.vue')
 Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes: [
-    { path: '/baz', component: Baz },
-    { path: '/bar', component: Bar }
+    {
+      path: '/',
+      component: Recommend
+    }
   ]
 })
 

@@ -1,16 +1,13 @@
 <template>
-  <div>
-    <test />
-    <router-view></router-view>
-  </div>
+  <Layout />
 </template>
 
 <script>
-  import test from './view/test'
+  import Layout from './layout'
   export default {
     name: 'app',
     components: {
-      test
+      Layout
     }
   }
 </script>

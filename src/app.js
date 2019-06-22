@@ -3,6 +3,7 @@ import router from './router'
 import store from './store'
 import APP from './APP.vue'
 
+import './public/scss/reset.scss'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
