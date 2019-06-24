@@ -37,6 +37,7 @@
     display: flex;
     .side {
       width: 200px;
+      min-height: 760px;
       background: #ededed;
     }
     .content {
