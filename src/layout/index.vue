@@ -1,25 +1,21 @@
 <template>
   <section class="main">
     <Mheader />
-    <div class="m-body">
-      <div class="side">
-        <Side />
-      </div>
-      <div class="content">
-        <router-view></router-view>
-      </div>
-    </div>
+    <Mbody />
+    <Mfooter />
   </section>
 </template>
 
 <script>
   import Mheader from './header'
-  import Side from './side'
+  import Mfooter from './footer'
+  import Mbody from './body'
   export default {
     name: 'layout',
     components: {
       Mheader,
-      Side
+      Mfooter,
+      Mbody
     }
   }
 </script>
@@ -30,18 +26,7 @@
     height: 670px;
     overflow-x: hidden;
     overflow-y: scroll;
-    // border: 1px solid cadetblue;
+    border: 1px solid cadetblue;
     margin: 0 auto;
-  }
-  .m-body {
-    display: flex;
-    .side {
-      width: 200px;
-      min-height: 620px;
-      background: #ededed;
-    }
-    .content {
-      flex: 1;
-    }
   }
 </style>
