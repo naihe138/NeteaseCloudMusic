@@ -27,17 +27,17 @@
 <style lang="scss" scoped>
   .main {
     width: 1002px;
-    height: 760px;
+    height: 670px;
     overflow-x: hidden;
     overflow-y: scroll;
-    border: 1px solid cadetblue;
+    // border: 1px solid cadetblue;
     margin: 0 auto;
   }
   .m-body {
     display: flex;
     .side {
       width: 200px;
-      min-height: 710px;
+      min-height: 620px;
       background: #ededed;
     }
     .content {

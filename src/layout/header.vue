@@ -60,7 +60,7 @@
 <style lang="scss" scoped>
   .header {
     height: 50px;
-    background: #d54f4a;
+    background: #d6584c;
     display: flex;
   }
   .window-opertate {
@@ -79,7 +79,6 @@
       background: red;
       border-radius: 10px;
       position: relative;
-      cursor: pointer;
       margin-left: 8px;
       span {
         display: none;
@@ -122,9 +121,15 @@
     padding-left: 30px;
     span{
       margin-right: 30px;
-      font-weight: 400;
-      cursor: pointer;
+      user-select: none;
+      font-size: 14px;
+      transition: color 0.3s;
       &.active {
+        font-weight: 500;
+        color: #ffffff;
+      }
+      &:hover {
+        font-weight: 500;
         color: #ffffff;
       }
     }
@@ -162,7 +167,6 @@
       color: #edb3b1;
       right: 6px;
       font-size: 12px;
-      cursor: pointer;
     }
     ::placeholder {
       color: #e69693;
@@ -181,7 +185,6 @@
     i {
       margin-right: 10px;
       color: #f0c2c0;
-      cursor: pointer;
     }
   }
 </style>
