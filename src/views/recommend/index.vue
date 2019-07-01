@@ -1,31 +1,20 @@
 <template>
   <div>
-    <p class="test">{{count}}</p>
-    <button @click="add">+ <i class="iconfont iconbofang"></i></button>
+    <Banner />
   </div>
 </template>
 
 <script>
+  import Banner from 'public/components/banner'
   export default {
+    components: {
+      Banner
+    },
     data() {
       return {
-        count: 1
       }
     },
-    methods: {
-      async add () {
-        let res = await this.test()
-        console.log(res)
-      },
-      test () {
-        return new Promise((resolve, reject) => {
-          setTimeout(() => {
-            this.count += 1
-            resolve('done')
-          }, 1000)
-        })
-      }
-    }
+    methods: {}
   }
 </script>
 
