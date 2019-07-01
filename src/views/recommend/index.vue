@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import Banner from 'public/components/banner'
+  import Banner from 'public/components/banner/index'
   export default {
     components: {
       Banner
