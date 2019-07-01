@@ -12,6 +12,8 @@ git clone git@github.com:naihe138/NeteaseCloudMusic.git
 
 ````js
 
+// 为了安装electron-download模块成功
+
 npm config set registry https://registry.npm.taobao.org
 
 npm install
