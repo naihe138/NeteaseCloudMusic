@@ -20,34 +20,38 @@
     position: relative;
     perspective: 800px;
     transform-style: preserve-3d;
-    padding-top: 20px;
+    transform-origin: center center;
   }
   .item {
-    width: 500px;
-    height: 182px;
+    width: 440px;
+    height: 164px;
     position: absolute;
     color: #ffffff;
     font-size: 100px;
     text-align: center;
-    line-height: 200px;
+    line-height: 164px;
     transition: 0.5s;
+    border-radius: 4px;
   }
   .bannerBox .item:nth-of-type(1){
     background: gold;
-    left: 100px;
+    left: 150px;
     z-index: 3;
-    transform: translateZ(100px)
+    transform: translateZ(150px);
+    top: 21px;
   }
   .bannerBox .item:nth-of-type(2){
     background: cadetblue;
     left: 0;
     z-index: 1;
-    // transform: translateZ(-100px)
+    transform: translateZ(0px);
+    top: 18px;
   }
   .bannerBox .item:nth-of-type(3){
     background: salmon;
     right: 0;
     z-index: 1;
-    // transform: translateZ(-100px)
+    transform: translateZ(0px);
+    top: 18px;
   }
 </style>
