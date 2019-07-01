@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="navOparata">
-      <span class="creat"><i class="iconfont icontriangle-bottom"></i>创建的歌单</span>
+      <span class="creat"><i class  ="iconfont icontriangle-bottom"></i>创建的歌单</span>
       <i class="iconfont iconplus-add"></i>
     </div>
     <div class="navList">
