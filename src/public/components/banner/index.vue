@@ -29,7 +29,7 @@
       }
     },
     methods: {
-      init () {
+      tabChange () {
         const arr = config.orderArr[this.index]
         let prev = this.index2 - 1
         let next = this.index2 + 1
@@ -74,7 +74,7 @@
           el.style.transform = obj.transform
           el.style.top = obj.top
         })
-        this.init()
+        this.tabChange()
       }
     },
     created () {
@@ -82,7 +82,7 @@
       this.index2 = 0
     },
     mounted () {
-      this.init()
+      this.tabChange()
       this.items = this.$refs.banner.querySelectorAll('.item')
     }
   }
@@ -117,7 +117,7 @@
     left: 154px;
     z-index: 3;
     transform: translateZ(150px);
-    top: 22px;
+    top: 20px;
   }
   .bannerImg .item:nth-of-type(2){
     background: cadetblue;
