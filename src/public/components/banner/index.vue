@@ -18,7 +18,6 @@
 
 <script>
   import config from './config'
-  console.log('config', config)
   let innnarr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   export default {
     name: 'Banner',
