@@ -4,6 +4,7 @@
     <div class="">
       <Title title="推荐歌单" />
       <List />
+      <List style="margin-top: 20px;" />
     </div>
   </div>
 </template>

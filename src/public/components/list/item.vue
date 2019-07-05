@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <div class="item" @mouseenter="onMouseenter" @mouseleave="onMouseleave">
     <div class="imagebox">
       <span class="count"><i class="iconfont iconyousanjiao"></i>123123</span>
       <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
@@ -7,7 +7,7 @@
         <div class="left">
           <i class="iconfont iconrenwu"></i>我叫何文丽何文丽
         </div>
-        <div class="right">
+        <div class="right" v-show="show">
           <i class="iconfont icontriangle-right"></i>
         </div>
       </div>
@@ -15,6 +15,26 @@
     <p class="title">别整太大压力，要多自己自己大压力，要多自己自己</p>
   </div>
 </template>
+
+<script>
+  export default {
+    name: 'item',
+    data () {
+      return {
+        show: false
+      }
+    },
+    methods: {
+      onMouseenter () {
+        this.show = true
+      },
+      onMouseleave () {
+        this.show = false
+      }
+    }
+  }
+</script>
+
 
 <style lang="scss" scoped>
   .item {
@@ -78,7 +98,7 @@
         justify-content: center;
         i{
           color: red;
-          font-size: 12px;
+          font-size: 16px;
         }
       }
     }
