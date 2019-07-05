@@ -2,7 +2,7 @@ const tranform1 = [
   {
     zIndex: 3,
     transform: `translateZ(150px)`,
-    top: '22px'
+    top: '20px'
   },
   {
     zIndex: 1,
@@ -25,7 +25,7 @@ const tranform2 = [
   {
     zIndex: 3,
     transform: `translate3d(154px, 0, 150px)`,
-    top: '22px'
+    top: '20px'
   },
   {
     zIndex: 1,
@@ -48,7 +48,7 @@ const tranform3 = [
   {
     zIndex: 3,
     transform: `translate3d(-154px, 0, 150px)`,
-    top: '22px'
+    top: '20px'
   }
 ]
 
