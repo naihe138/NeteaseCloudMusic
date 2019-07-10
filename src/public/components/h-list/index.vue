@@ -148,7 +148,12 @@
   .item {
     display: flex;
     justify-content: space-between;
-    height: 72px;
+    height: 74px;
+    &:nth-last-of-type(1) {
+      .itemC {
+        border-bottom: 1px solid #f3f3f3;
+      }
+    }
     .itemC {
       border-top: 1px solid #f3f3f3;
       flex: 1;
