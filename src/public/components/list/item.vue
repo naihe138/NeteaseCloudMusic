@@ -1,5 +1,5 @@
 <template>
-  <div class="item" @mouseenter="onMouseenter" @mouseleave="onMouseleave">
+  <div class="item">
     <div class="imagebox">
       <span class="count"><i class="iconfont iconyousanjiao"></i>123123</span>
       <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
@@ -7,8 +7,8 @@
         <div class="left">
           <i class="iconfont iconrenwu"></i>我叫何文丽何文丽
         </div>
-        <div class="right" v-show="show">
-          <i class="iconfont icontriangle-right"></i>
+        <div class="right">
+          <PlayIcon />
         </div>
       </div>
     </div>
@@ -17,20 +17,17 @@
 </template>
 
 <script>
+  import PlayIcon from '../play-icon/index'
   export default {
     name: 'item',
+    components: {
+      PlayIcon
+    },
     data () {
       return {
-        show: false
       }
     },
     methods: {
-      onMouseenter () {
-        this.show = true
-      },
-      onMouseleave () {
-        this.show = false
-      }
     }
   }
 </script>
@@ -48,6 +45,11 @@
     position: relative;
     &:nth-of-type(5) {
       margin-right: 0;
+    }
+    &:hover {
+      .itemFooter .right {
+        visibility: visible;
+      }
     }
   }
   .imagebox {
@@ -89,17 +91,7 @@
         position: absolute;
         right: 6px;
         bottom: 4px;
-        width: 30px;
-        height: 30px;
-        background: rgba(255,255,255, 0.8);
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        i{
-          color: red;
-          font-size: 16px;
-        }
+        visibility: hidden;
       }
     }
 
