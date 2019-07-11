@@ -40,7 +40,6 @@
     flex: 1;
     // border: 1px solid red;
     box-sizing: border-box;
-    border-radius: 4px;
     overflow: hidden;
     position: relative;
     &:nth-of-type(5) {
@@ -57,6 +56,8 @@
     height: 140px;
     position: relative;
     color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
     img {
       width: 100%;
       height: 100%;

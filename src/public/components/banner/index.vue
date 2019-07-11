@@ -11,8 +11,8 @@
       <span></span>
       <span></span>
     </div>
-    <i class="iconfont iconchangyongicon-1 btnLeft" @click="prev"></i>
-    <i class="iconfont iconchangyongicon- btnRight" @click="next"></i>
+    <i class="iconfont iconchangyongicon-1 btnLeft oparations" @click="prev"></i>
+    <i class="iconfont iconchangyongicon- btnRight oparations" @click="next"></i>
   </div>
 </template>
 
@@ -89,8 +89,11 @@
 
 <style lang="scss" scoped>
   .bannerBox {
-    border: 1px solid black;
+    // border: 1px solid black;
     position: relative;
+    &:hover .oparations{
+      visibility: visible;
+    }
   }
   .bannerImg {
     width: 748px;
@@ -149,18 +152,18 @@
       background: #d13c37
     }
   }
-  .btnLeft {
+  .oparations {
     position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    visibility: hidden;
+  }
+  .btnLeft {
     left: 0;
     top: 78px;
-    font-size: 30px;
-    cursor: pointer;
   }
   .btnRight {
-    position: absolute;
     right: 0;
     top: 78px;
-    font-size: 30px;
-    cursor: pointer;
   }
 </style>
