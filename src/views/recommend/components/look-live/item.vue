@@ -1,14 +1,11 @@
 <template>
   <div class="item">
     <div class="imagebox">
-      <span class="count"><i class="iconfont iconyousanjiao"></i>123123</span>
+      <span class="count"><i class="iconfont iconhuobao"></i>123123</span>
       <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
       <div class="itemFooter">
         <div class="left">
           <i class="iconfont iconrenwu"></i>我叫何文丽何文丽
-        </div>
-        <div class="right">
-          <PlayIcon />
         </div>
       </div>
     </div>
@@ -17,12 +14,8 @@
 </template>
 
 <script>
-  import PlayIcon from '../play-icon/index'
   export default {
-    name: 'item',
-    components: {
-      PlayIcon
-    },
+    name: 'LookItem',
     data () {
       return {
       }
@@ -36,24 +29,18 @@
 <style lang="scss" scoped>
   .item {
     margin-right: 10px;
-    height: 184px;
+    height: 300px;
     flex: 1;
-    // border: 1px solid red;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    &:nth-of-type(5) {
+    &:nth-of-type(4) {
       margin-right: 0;
-    }
-    &:hover {
-      .itemFooter .right {
-        visibility: visible;
-      }
     }
   }
   .imagebox {
     width: 100%;
-    height: 140px;
+    height: 232px;
     position: relative;
     color: #ffffff;
     border-radius: 4px;
@@ -88,12 +75,6 @@
         white-space: nowrap;
         margin-left: 4px;
       }
-      .right {
-        position: absolute;
-        right: 6px;
-        bottom: 4px;
-        visibility: hidden;
-      }
     }
 
   }
@@ -101,7 +82,7 @@
     margin-top: 8px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     overflow: hidden;
   }
 </style>

@@ -4,7 +4,6 @@
     <Item />
     <Item />
     <Item />
-    <Item />
   </div>
 </template>
 

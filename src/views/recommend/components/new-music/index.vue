@@ -125,7 +125,7 @@
 
 
 <script>
-  import PlayIcon from '../play-icon/index'
+  import PlayIcon from 'public/components/play-icon/index'
   export default {
     name: 'item',
     components: {

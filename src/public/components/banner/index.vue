@@ -83,14 +83,22 @@
     mounted () {
       this.tabChange()
       this.items = this.$refs.banner.querySelectorAll('.item')
+      // this.timer = setInterval(() => {
+      //   this.next()
+      // }, 5000)
+    },
+    beforeDestroy () {
+      clearInterval(this.timer)
     }
   }
 </script>
 
 <style lang="scss" scoped>
   .bannerBox {
-    // border: 1px solid black;
     position: relative;
+    .oparations {
+      color: #ffffff;
+    }
     &:hover .oparations{
       visibility: visible;
     }
