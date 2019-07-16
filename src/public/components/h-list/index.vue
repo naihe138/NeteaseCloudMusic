@@ -160,6 +160,11 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      box-sizing: border-box;
+      padding-left: 10px;
+      &:hover {
+        background: #f5f5f5;
+      }
     }
     .left {
       margin-right: 40px;
