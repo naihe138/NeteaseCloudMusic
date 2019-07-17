@@ -38,7 +38,6 @@
     margin-right: 10px;
     height: 184px;
     flex: 1;
-    // border: 1px solid red;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;

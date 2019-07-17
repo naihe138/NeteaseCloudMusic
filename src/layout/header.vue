@@ -62,6 +62,7 @@
     height: 50px;
     background: #d6584c;
     display: flex;
+    user-select: none;
   }
   .window-opertate {
     display: flex;
