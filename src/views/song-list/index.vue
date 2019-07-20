@@ -58,12 +58,13 @@
       margin-left: 10px;
       .title {
         border-radius: 24px;
-        border: 2px solid #e5a867;
+        border: 1px solid #e5a867;
         color: #e5a867;
         text-align: center;
         width: 110px;
         height: 32px;
         line-height: 30px;
+        cursor: default;
         i {
           padding-right: 5px;
         }
