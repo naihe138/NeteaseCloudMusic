@@ -28,15 +28,15 @@
 
 <style lang="scss" scoped>
   .item {
-    margin-right: 10px;
+    // margin-right: 10px;
     height: 300px;
     flex: 1;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    &:nth-of-type(4) {
-      margin-right: 0;
-    }
+    // &:nth-of-type(4) {
+    //   margin-right: 0;
+    // }
   }
   .imagebox {
     width: 100%;

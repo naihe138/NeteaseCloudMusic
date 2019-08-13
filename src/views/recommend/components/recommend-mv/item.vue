@@ -24,15 +24,15 @@
 
 <style lang="scss" scoped>
   .item {
-    margin-right: 18px;
+    // margin-right: 18px;
     height: 150px;
     flex: 1;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    &:nth-of-type(4) {
-      margin-right: 0;
-    }
+    // &:nth-of-type(4) {
+    //   margin-right: 0;
+    // }
   }
   .imagebox {
     width: 100%;

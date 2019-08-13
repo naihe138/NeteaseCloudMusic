@@ -32,6 +32,7 @@
       <i class="iconfont iconshezhi"></i>
       <i class="iconfont iconyoujian"></i>
       <i class="iconfont iconpifu"></i>
+      <i class="iconfont iconpifu"></i>
     </div>
   </section>
 </template>

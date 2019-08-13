@@ -66,6 +66,7 @@
       align-items: center;
       box-sizing: border-box;
       padding-left: 10px;
+      transition: background 0.3s;
       &:hover {
         background: #f5f5f5;
       }

@@ -35,15 +35,11 @@
 
 <style lang="scss" scoped>
   .item {
-    margin-right: 10px;
     height: 184px;
     flex: 1;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    &:nth-of-type(5) {
-      margin-right: 0;
-    }
     &:hover {
       .itemFooter .right {
         opacity: 1;

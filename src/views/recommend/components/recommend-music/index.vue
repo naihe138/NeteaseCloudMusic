@@ -5,6 +5,11 @@
     <RecommendItem />
     <RecommendItem />
     <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
   </div>
 </template>
 
@@ -20,6 +25,10 @@
 
 <style lang="scss" scoped>
   .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 186px);
+    grid-column-gap: 10px;
+    grid-row-gap: 12px;
   }
 </style>

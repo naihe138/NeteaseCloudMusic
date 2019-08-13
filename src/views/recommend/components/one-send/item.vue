@@ -21,7 +21,7 @@
 
 <style lang="scss" scoped>
   .item {
-    margin-right: 18px;
+    // margin-right: 18px;
     height: 184px;
     flex: 1;
     box-sizing: border-box;

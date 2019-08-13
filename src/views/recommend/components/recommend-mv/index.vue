@@ -19,6 +19,8 @@
 
 <style lang="scss" scoped>
   .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 18px;
   }
 </style>

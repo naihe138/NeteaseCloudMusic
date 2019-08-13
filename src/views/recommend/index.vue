@@ -4,7 +4,6 @@
     <div class="">
       <Title title="推荐歌单" />
       <List />
-      <List style="margin-top: 20px;" />
     </div>
     <div class="">
       <Title title="独家放送" />
