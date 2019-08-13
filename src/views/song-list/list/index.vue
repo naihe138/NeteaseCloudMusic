@@ -4,6 +4,10 @@
     <RecommendItem />
     <RecommendItem />
     <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
+    <RecommendItem />
   </div>
 </template>
 
@@ -19,6 +23,9 @@
 
 <style lang="scss" scoped>
   .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
   }
 </style>

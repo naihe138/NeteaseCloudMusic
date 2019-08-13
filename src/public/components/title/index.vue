@@ -1,5 +1,5 @@
 <template functional>
-  <div class="title">{{props.title}}<i class="iconfont iconchangyongicon-"></i></div>
+  <div class="title">{{props.title}}<i v-if="!props.arrow" class="iconfont iconchangyongicon-"></i></div>
 </template>
 
 <style lang="scss" scoped>

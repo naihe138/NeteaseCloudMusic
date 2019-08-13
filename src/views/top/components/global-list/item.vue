@@ -4,7 +4,7 @@
       <span class="count"><i class="iconfont iconyousanjiao"></i>123123</span>
       <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
       <div class="center">
-        <PlayIcon />
+        <PlayIcon :width="34" />
       </div>
     </div>
     <p class="title">别整太大压力，要多自己</p>
@@ -30,15 +30,15 @@
 
 <style lang="scss" scoped>
   .item {
-    margin-right: 18px;
+    // margin-right: 18px;
     height: 200px;
     flex: 1;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    &:nth-of-type(4) {
-      margin-right: 0;
-    }
+    // &:nth-of-type(4) {
+    //   margin-right: 0;
+    // }
     &:hover {
       .center {
         opacity: 1;

@@ -7,7 +7,7 @@
       <PaymentBoutique />
     </div>
     <div class="">
-      <Title title="个性电台推荐" />
+      <Title title="个性电台推荐" arrow="true" />
       <List />
     </div>
   </section>
