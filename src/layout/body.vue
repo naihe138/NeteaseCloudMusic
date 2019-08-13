@@ -22,6 +22,7 @@
 
 <style lang="scss" scoped>
   .m-body {
+    background-color: #ffffff;
     display: flex;
     .side {
       width: 200px;
