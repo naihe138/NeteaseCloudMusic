@@ -16,12 +16,12 @@
       </div>
     </div>
     <div class="nav">
-      <span class="active">个性推荐</span>
-      <span>歌单</span>
-      <span>主播电台</span>
-      <span>排行榜</span>
-      <span>歌手</span>
-      <span>最新音乐</span>
+      <span v-for="(item, index) in navArr"
+        :key="index"
+        :class="activeIndex === index ? 'active' : ''"
+        @click="go(item.path, index)">
+        {{item.text}}
+      </span>
     </div>
     <div class="serch">
       <i class="iconfont icona"></i>
@@ -32,7 +32,7 @@
       <i class="iconfont iconshezhi"></i>
       <i class="iconfont iconyoujian"></i>
       <i class="iconfont iconpifu"></i>
-      <i class="iconfont iconpifu"></i>
+      <i class="iconfont iconcloud-sync"></i>
     </div>
   </section>
 </template>
@@ -42,7 +42,34 @@
     name: 'Mheander',
     data () {
       return {
-        searchStr: ''
+        searchStr: '',
+        activeIndex: 0,
+        navArr: [
+          {
+            text: '个性推荐',
+            path: '/'
+          },
+          {
+            text: '歌单',
+            path: '/song-list'
+          },
+          {
+            text: '主播电台',
+            path: '/anchor-radio'
+          },
+          {
+            text: '排行榜',
+            path: '/top'
+          },
+          {
+            text: '歌手',
+            path: '/'
+          },
+          {
+            text: '最新音乐',
+            path: '/'
+          }
+        ]
       }
     },
     computed: {
@@ -51,6 +78,10 @@
       }
     },
     methods: {
+      go (path, index) {
+        this.activeIndex = index
+        this.$router.push(path)
+      },
       toClear () {
         this.searchStr = ''
       }
@@ -62,7 +93,8 @@
   .header {
     height: 50px;
     background: #d6584c;
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px auto auto 120px;
     user-select: none;
   }
   .window-opertate {
@@ -179,10 +211,12 @@
     display: flex;
     align-items: center;
     margin-top: 16px;
-    padding-left: 20px;
     position: relative;
     .iconshezhi {
       font-size: 21px;
+    }
+    .iconcloud-sync {
+      font-size: 18px;
     }
     i {
       margin-right: 10px;

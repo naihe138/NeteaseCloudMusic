@@ -15,3 +15,6 @@ body {
 li {
   list-style: none;
 }
+p, div, span, a, button, i, li {
+  user-select: none;
+}

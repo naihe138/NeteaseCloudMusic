@@ -4,6 +4,8 @@
     <NewMusicItem />
     <NewMusicItem />
     <NewMusicItem />
+    <NewMusicItem />
+    <NewMusicItem />
   </section>
 </template>
 
@@ -28,5 +30,11 @@
   .hList {
     width: 100%;
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    .item:nth-last-of-type(1), .item:nth-last-of-type(2) {
+      border-bottom: 1px solid #f3f3f3;
+    }
   }
 </style>
