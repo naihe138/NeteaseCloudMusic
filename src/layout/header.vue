@@ -63,7 +63,7 @@
           },
           {
             text: '歌手',
-            path: '/'
+            path: '/singer'
           },
           {
             text: '最新音乐',

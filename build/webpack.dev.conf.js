@@ -134,7 +134,13 @@ module.exports = new Promise((resolve, reject) => {
       devWebpackConfig.plugins.push(
         new FriendlyErrorsPlugin({
           compilationSuccessInfo: {
-            messages: [`Your application is running here: `, ' ', chalk.blue(`http://${devWebpackConfig.devServer.host}:${port}`), ' ', chalk.blue(`http://${Local}:${port}`)],
+            messages: [
+              `Your application is running here: `,
+              ' ',
+              chalk.blue(`http://${devWebpackConfig.devServer.host}:${port}`),
+              ' ',
+              chalk.blue(`http://${Local}:${port}`)
+            ],
           },
           onErrors: config.dev.notifyOnErrors
           ? utils.createNotifierCallback()

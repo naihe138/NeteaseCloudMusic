@@ -17,7 +17,7 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .item {
     display: grid;
     grid-template-columns: 45px auto;
@@ -45,7 +45,7 @@
         background: #fdf6f6;
         padding: 4px 12px;
         color: #d23e3c;
-        border-radius: 12px;
+        border-radius: 16px;
       }
     }
   }
