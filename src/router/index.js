@@ -5,6 +5,7 @@ const Recommend = () => import(/* webpackChunkName: "recommend" */ '../views/rec
 const SongList = () => import(/* webpackChunkName: "song-list" */ '../views/song-list/index.vue')
 const AnchorRadio = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/index.vue')
 const Top = () => import(/* webpackChunkName: "top" */ '../views/top/index.vue')
+const Singer = () => import(/* webpackChunkName: "singer" */ '../views/singer/index.vue')
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -24,6 +25,10 @@ const router = new VueRouter({
     {
       path: '/top',
       component: Top
+    },
+    {
+      path: '/singer',
+      component: Singer
     }
   ]
 })
