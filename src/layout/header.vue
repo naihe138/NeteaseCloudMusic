@@ -67,7 +67,7 @@
           },
           {
             text: '最新音乐',
-            path: '/'
+            path: '/new-music'
           }
         ]
       }

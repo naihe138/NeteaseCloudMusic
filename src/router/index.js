@@ -6,6 +6,7 @@ const SongList = () => import(/* webpackChunkName: "song-list" */ '../views/song
 const AnchorRadio = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/index.vue')
 const Top = () => import(/* webpackChunkName: "top" */ '../views/top/index.vue')
 const Singer = () => import(/* webpackChunkName: "singer" */ '../views/singer/index.vue')
+const NewMusic = () => import(/* webpackChunkName: "new-music" */ '../views/new-music/index.vue')
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -29,6 +30,10 @@ const router = new VueRouter({
     {
       path: '/singer',
       component: Singer
+    },
+    {
+      path: '/new-music',
+      component: NewMusic
     }
   ]
 })
