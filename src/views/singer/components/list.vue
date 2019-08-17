@@ -1,53 +1,53 @@
 <template>
   <div class="list">
     <div class="first item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title">歌手排行帮<i class="iconfont iconchangyongicon-"></i></p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>
       </p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>
       </p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>
       </p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>
       </p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>
       </p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>
       </p>
     </div>
     <div class="item">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p class="title list-title">
         <span class="name">何文林</span>
         <i class="iconfont iconrenwu"></i>

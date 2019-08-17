@@ -3,7 +3,7 @@
     <li class="item">
       <div class="num">01</div>
       <div class="imgbox">
-        <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+        <img src="@/assest/abc.jpeg" alt="">
         <PlayIcon class="icon" />
       </div>
       <div class="title">

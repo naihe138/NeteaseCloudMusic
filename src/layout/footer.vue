@@ -5,7 +5,7 @@
     </div>
     <div class="footerContent">
       <div class="songInfo">
-        <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+        <img src="@/assest/abc.jpeg" alt="">
         <div class="songInfoContent">
           <p class="song">那个男人<span class="songAuthor"> - 萧敬腾</span></p>
           <p class="songTime">01:21 / 03:40</p>

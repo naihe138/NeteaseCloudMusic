@@ -1,7 +1,7 @@
 <template>
   <section class="pagePadding">
     <header class="SongListHeader">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <div class="headerContent">
         <div class="title"><i class="iconfont iconhuangguan"></i>精品歌单</div>
         <div class="descript">

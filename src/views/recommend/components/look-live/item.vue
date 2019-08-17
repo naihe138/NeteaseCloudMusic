@@ -2,7 +2,7 @@
   <div class="item">
     <div class="imagebox">
       <span class="count"><i class="iconfont iconhuobao"></i>123123</span>
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
+      <img src="@/assest/abc.jpeg" />
       <div class="itemFooter">
         <div class="left">
           <i class="iconfont iconrenwu"></i>我叫何文丽何文丽

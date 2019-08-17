@@ -1,7 +1,7 @@
 <template>
   <div class="item">
     <div class="imagebox">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
+      <img src="@/assest/abc.jpeg" />
       <div class="itemFooter">
         <div class="text">我叫何文丽何文丽</div>
       </div>

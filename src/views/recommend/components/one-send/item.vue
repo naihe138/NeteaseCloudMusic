@@ -2,7 +2,7 @@
   <div class="item">
     <div class="imagebox">
       <span class="one"><i class="iconfont icondanzi"></i></span>
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" />
+      <img src="@/assest/abc.jpeg" />
     </div>
     <p class="title">别整太大压力，要多自己自己大压力，要多自己自己</p>
   </div>

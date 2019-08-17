@@ -1,6 +1,6 @@
 <template>
   <div class="officail">
-    <img class="post" src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+    <img class="post" src="@/assest/abc.jpeg" alt="">
     <div class="topList">
       <ul>
         <li class="item">

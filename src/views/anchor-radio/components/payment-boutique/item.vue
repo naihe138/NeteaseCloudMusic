@@ -1,7 +1,7 @@
 <template>
   <div class="item">
     <div class="thumb">
-      <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+      <img src="@/assest/abc.jpeg" alt="">
       <p>5月34日更新</p>
     </div>
     <div class="textbox">

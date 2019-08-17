@@ -2,7 +2,7 @@
   <div class="item">
     <div class="itemContent">
       <a class="thumb">
-        <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+        <img src="@/assest/abc.jpeg" alt="">
         <div class="iconbox"><PlayIcon /></div>
       </a>
       <span class="itemIndex">01</span>

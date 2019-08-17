@@ -3,7 +3,7 @@
     <div class="item">
       <div class="left itemC">
         <div class="itemContent">
-          <img class="thumb" src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+          <img class="thumb" src="@/assest/abc.jpeg" alt="">
           <p class="song">
             <span class="title">那就这样子吧</span>
             <span class="name">何文丽</span>
@@ -12,7 +12,7 @@
       </div>
       <div class="right itemC">
         <div class="itemContent">
-          <img class="thumb" src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
+          <img class="thumb" src="@/assest/abc.jpeg" alt="">
           <p class="song">
             <span class="title">那就这样子吧</span>
             <span class="name">何文丽</span>
