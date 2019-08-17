@@ -27,6 +27,9 @@
     color: #666666;
     span {
       padding: 0 10px;
+      &:nth-of-type(1) {
+        padding-left: 0;
+      }
       &.active {
         font-weight: 500;
         color: #333;

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pagePadding">
     <header class="SongListHeader">
       <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
       <div class="headerContent">

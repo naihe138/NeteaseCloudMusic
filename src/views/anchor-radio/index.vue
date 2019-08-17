@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pagePadding">
     <Banner />
     <Category />
     <div class="">

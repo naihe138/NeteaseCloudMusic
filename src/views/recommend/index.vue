@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pagePadding">
     <Banner />
     <div class="">
       <Title title="推荐歌单" />
@@ -59,6 +59,6 @@
 <style scoped>
   .test {
     color: hotpink;
-    background: blueviolet
+    background: blueviolet;
   }
 </style>

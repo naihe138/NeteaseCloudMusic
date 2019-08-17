@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pagePadding">
     <h3 class="title">官方榜</h3>
     <OfficailList />
     <h3 class="title">全球榜</h3>

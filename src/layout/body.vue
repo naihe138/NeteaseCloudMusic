@@ -33,7 +33,6 @@
     }
     .content {
       flex: 1;
-      padding: 20px 20px 20px 30px;
       height: 560px;
       overflow-x: hidden;
       overflow-y: auto;

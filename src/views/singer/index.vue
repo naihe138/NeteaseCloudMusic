@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pagePadding">
     <Classification />
     <SingerList />
   </section>
