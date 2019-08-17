@@ -6,7 +6,13 @@
         <img src="http://s16.sinaimg.cn/middle/6dd206d6g944ccf81736f&690" alt="">
         <PlayIcon class="icon" />
       </div>
-      <div class="title">奥术大师大所多<i class="iconfont iconsq"></i></div>
+      <div class="title">
+        <span class="tc">奥术大师大所多奥术奥术奥术大师大所多奥术奥术奥术大师大所多奥术奥术</span>
+        <span class="ci">
+          <i class="iconfont iconsq"></i>
+          <i class="iconfont iconshenglvehao"></i>
+        </span>
+      </div>
       <div class="auther">最萌阿达来上课最萌阿达来上课最萌阿达来上课最萌阿达来上课</div>
       <div class="album">最萌阿达来上课最萌阿达来上课最萌阿达来上课最萌阿达来上课</div>
       <div class="time">01:23</div>
@@ -59,8 +65,20 @@
     }
     .title {
       padding-left: 10px;
-      i {
+      max-width: 400px;
+      display: flex;
+      overflow: hidden;
+      .tc {
+        max-width: calc(100% - 40px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .iconsq {
         color: #f96942;
+      }
+      .iconshenglvehao {
+        color: #999999
       }
     }
     .auther, .album {
