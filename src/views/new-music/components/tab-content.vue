@@ -1,21 +1,21 @@
 <template>
   <div>
     <NewMusic v-show="show"/>
-    <NewCollection v-show="!show" />
+    <NewUp v-show="!show" />
   </div>
 </template>
 
 <script>
   import NewMusic from './new-music'
-  import NewCollection from './new-collection'
+  import NewUp from './new-up'
   export default {
     components: {
       NewMusic,
-      NewCollection
+      NewUp
     },
     data() {
       return {
-        show: true
+        show: false
       }
     }
   }

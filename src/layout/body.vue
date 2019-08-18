@@ -37,6 +37,7 @@
       overflow-x: hidden;
       overflow-y: auto;
       box-sizing: border-box;
+      position: relative;
     }
   }
 </style>
