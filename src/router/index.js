@@ -7,6 +7,8 @@ const AnchorRadio = () => import(/* webpackChunkName: "anchor-radio" */ '../view
 const Top = () => import(/* webpackChunkName: "top" */ '../views/top/index.vue')
 const Singer = () => import(/* webpackChunkName: "singer" */ '../views/singer/index.vue')
 const NewMusic = () => import(/* webpackChunkName: "new-music" */ '../views/new-music/index.vue')
+const ExclusiveSend = () => import(/* webpackChunkName: "exclusive-send" */ '../views/exclusive-send/index.vue')
+
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -34,6 +36,10 @@ const router = new VueRouter({
     {
       path: '/new-music',
       component: NewMusic
+    },
+    {
+      path: '/exclusive-send',
+      component: ExclusiveSend
     }
   ]
 })
