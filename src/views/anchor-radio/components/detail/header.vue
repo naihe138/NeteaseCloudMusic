@@ -32,7 +32,13 @@
   </div>
 </template>
 
-<style lang="scss" scope>
+<script>
+  export default {
+    name: 'DHeader'
+  }
+</script>
+
+<style lang="scss" scoped>
   @mixin zCenter {
     display: flex;
     align-items: center;
@@ -60,7 +66,7 @@
         border: 1px solid #cf3d3c;
         margin-right: 10px;
         font-weight: normal;
-        padding: 3px 5px;
+        padding: 1px 5px;
         border-radius: 4px;
       }
     }

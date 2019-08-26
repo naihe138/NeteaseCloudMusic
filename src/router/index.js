@@ -9,6 +9,7 @@ const Top = () => import(/* webpackChunkName: "top" */ '../views/top/index.vue')
 const Singer = () => import(/* webpackChunkName: "singer" */ '../views/singer/index.vue')
 const NewMusic = () => import(/* webpackChunkName: "new-music" */ '../views/new-music/index.vue')
 const ExclusiveSend = () => import(/* webpackChunkName: "exclusive-send" */ '../views/exclusive-send/index.vue')
+const ErrorPage = () => import(/* webpackChunkName: "error-page" */ '../views/error/index.vue')
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,10 @@ const router = new VueRouter({
     {
       path: '/exclusive-send',
       component: ExclusiveSend
+    },
+    {
+      path: '*',
+      component: ErrorPage
     }
   ]
 })
