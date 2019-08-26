@@ -31,6 +31,7 @@
   .mfooter {
     height: 60px;
     user-select: none;
+    background: #ffffff;
   }
   .progress {
     height: 2px;
