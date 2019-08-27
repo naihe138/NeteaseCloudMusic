@@ -109,7 +109,7 @@
     }
   }
   .showList {
-    margin: 0 0px 10px 2px;
+    margin: 0 2px 10px 2px;
     .item {
       display: grid;
       grid-template-columns: 58px 60px auto 120px 70px 100px 75px;

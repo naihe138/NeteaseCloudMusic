@@ -1,20 +1,33 @@
 <template>
   <section>
     <div class="tabHeader">
-      <span class="active">节目<i>(10)</i></span>
-      <span>订阅者<i>(110)</i></span>
+      <span :class="show === 1 ? 'active' : ''" @click="tabClick(1)">节目<i>(10)</i></span>
+      <span :class="show === 2 ? 'active' : ''"  @click="tabClick(2)">订阅者<i>(110)</i></span>
     </div>
     <div class="tabContent">
-      <Show />
+      <Show v-show="show === 1" />
+      <Subscriber v-show="show === 2"  />
     </div>
   </section>
 </template>
 
 <script>
   import Show from './show'
+  import Subscriber from './subscriber'
   export default {
     components: {
-      Show
+      Show,
+      Subscriber
+    },
+    data () {
+      return {
+        show: 1
+      }
+    },
+    methods: {
+      tabClick (num) {
+        this.show = num
+      }
     }
   }
 </script>
