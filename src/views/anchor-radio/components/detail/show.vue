@@ -117,6 +117,9 @@
       align-items: center;
       border-radius: 4px;
       &:nth-of-type(2n - 1) {
+        background: #fafafa;
+      }
+      &:hover {
         background: #f2f2f3;
       }
     }

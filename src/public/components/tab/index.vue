@@ -1,27 +1,31 @@
 <template>
   <section>
     <div class="tabHeader">
-      <span :class="show === 1 ? 'active' : ''" @click="tabClick(1)">节目<i>(10)</i></span>
-      <span :class="show === 2 ? 'active' : ''"  @click="tabClick(2)">订阅者<i>(110)</i></span>
+      <span v-for="(item, index) in options"
+        :key="'a-' + index"
+        :class="show === index ? 'active' : ''"
+        @click="tabClick(index)">
+        {{item.text}}<i v-if="item.num">({{item.num}})</i>
+      </span>
     </div>
     <div class="tabContent">
-      <Show v-show="show === 1" />
-      <Subscriber v-show="show === 2"  />
+      <slot v-bind:show="show"></slot>
     </div>
   </section>
 </template>
 
 <script>
-  import Show from './show'
-  import Subscriber from './subscriber'
   export default {
-    components: {
-      Show,
-      Subscriber
+    name: 'Tab',
+    props: {
+      options: {
+        type: Array,
+        default: () => []
+      }
     },
     data () {
       return {
-        show: 1
+        show: 0
       }
     },
     methods: {

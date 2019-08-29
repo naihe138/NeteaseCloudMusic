@@ -1,17 +1,17 @@
 <template>
   <section>
     <DHeader />
-    <Tab />
+    <Content />
   </section>
 </template>
 
 <script>
-  import DHeader from './components/detail/header'
-  import Tab from './components/detail/tab'
+  import DHeader from '@/public/components/detail-header'
+  import Content from './components/detail/content'
   export default {
     components: {
       DHeader,
-      Tab
+      Content
     }
   }
 </script>
