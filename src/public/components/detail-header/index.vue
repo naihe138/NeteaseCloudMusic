@@ -9,6 +9,7 @@
       <p class="user">
         <img class="usephoto" src="@/assest/abc.jpeg" alt="">
         <span class="username">天阿斯顿</span>
+        <span class="create">2019-09-09创建</span>
       </p>
       <div class="btnbox">
         <div class="play btn">
@@ -80,7 +81,11 @@
         margin-right: 10px;
       }
       .username {
+        margin-right: 10px;
         color: #547fb4;
+      }
+      .create {
+        color: #666666;
       }
     }
     .btnbox {

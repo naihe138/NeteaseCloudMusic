@@ -12,7 +12,7 @@
 <script>
   import Tab from '@/public/components/tab'
   import Show from './show'
-  import Subscriber from './subscriber'
+  import Subscriber from '@/public/components/subscriber'
   export default {
     components: {
       Tab,
