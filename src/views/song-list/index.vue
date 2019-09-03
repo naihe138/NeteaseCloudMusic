@@ -30,7 +30,7 @@
 </template>
 
 <script>
-  import List from './list/index'
+  import List from './components/list/index'
   export default {
     name: 'SongList',
     components: {

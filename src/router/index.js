@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 const Recommend = () => import(/* webpackChunkName: "recommend" */ '../views/recommend/index.vue')
 const SongList = () => import(/* webpackChunkName: "song-list" */ '../views/song-list/index.vue')
+const SongListDetail = () => import(/* webpackChunkName: "song-list" */ '../views/song-list/detail.vue')
 const AnchorRadio = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/index.vue')
 const AnchorRadioDitaile = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/detail.vue')
 const Top = () => import(/* webpackChunkName: "top" */ '../views/top/index.vue')
@@ -22,6 +23,10 @@ const router = new VueRouter({
     {
       path: '/song-list',
       component: SongList
+    },
+    {
+      path: '/song-detail/:id',
+      component: SongListDetail
     },
     {
       path: '/anchor-radio',
