@@ -8,151 +8,7 @@
       <div>时长</div>
     </div>
     <ol class="body">
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
-        <div class="index">
-          <span class="itext">01</span>
-          <i class="iconfont iconlike"></i>
-          <i class="iconfont iconxiazai"></i>
-        </div>
-        <div class="title">
-          <span class="ttext">倔强</span>
-          <i class="iconfont iconsq"></i>
-          <i class="iconfont iconshipin"></i>
-          <i class="iconfont iconshenglvehao"></i>
-        </div>
-        <div class="singger">五月天</div>
-        <div class="album">神的孩子都在爱跳舞</div>
-        <div class="time">09:90</div>
-      </li>
-      <li class="item layout">
+      <li class="item layout" v-for="item in 20" :key="`q${item}`">
         <div class="index">
           <span class="itext">01</span>
           <i class="iconfont iconlike"></i>
@@ -171,6 +27,16 @@
     </ol>
   </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        list: 10
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
   .list {
@@ -195,9 +61,12 @@
     &:nth-of-type(2n - 1) {
       background: #fafafa;
     }
-    // &:hover {
-    //   background: #f2f2f2;
-    // }
+    &:hover {
+      background: #f2f2f2;
+    }
+    &:hover .title .iconshenglvehao {
+      visibility: visible
+    }
     .index {
       display: flex;
       align-items: center;
@@ -233,6 +102,7 @@
       }
       .iconshenglvehao {
         color: #646464;
+        visibility: hidden;
       }
     }
     .time {
