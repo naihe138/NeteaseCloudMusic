@@ -18,16 +18,16 @@
 </template>
 
 <script>
-  const COUNT = 140
   export default {
     data () {
+      this.TEXT_COUNT = 140
       return {
-        count: COUNT
+        count: this.TEXT_COUNT
       }
     },
     methods: {
       handleInput (e) {
-        this.count = COUNT - e.target.innerText.length
+        this.count = this.TEXT_COUNT - e.target.innerText.length
       }
     }
   }
