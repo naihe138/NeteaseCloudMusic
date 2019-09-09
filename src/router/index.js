@@ -6,6 +6,7 @@ const SongList = () => import(/* webpackChunkName: "song-list" */ '../views/song
 const SongListDetail = () => import(/* webpackChunkName: "song-list" */ '../views/song-list/detail.vue')
 const AnchorRadio = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/index.vue')
 const AnchorRadioDitaile = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/detail.vue')
+const AnchorRadioTabDitaile = () => import(/* webpackChunkName: "anchor-radio" */ '../views/anchor-radio/tab-detail.vue')
 const Top = () => import(/* webpackChunkName: "top" */ '../views/top/index.vue')
 const Singer = () => import(/* webpackChunkName: "singer" */ '../views/singer/index.vue')
 const NewMusic = () => import(/* webpackChunkName: "new-music" */ '../views/new-music/index.vue')
@@ -35,6 +36,10 @@ const router = new VueRouter({
     {
       path: '/anchor-detail/:id',
       component: AnchorRadioDitaile
+    },
+    {
+      path: '/anchor-tab/:id',
+      component: AnchorRadioTabDitaile
     },
     {
       path: '/top',
