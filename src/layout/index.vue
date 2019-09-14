@@ -24,9 +24,9 @@
   .main {
     width: 1002px;
     height: 670px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
     border: 1px solid cadetblue;
     margin: 0 auto;
+    box-sizing: border-box;
   }
 </style>

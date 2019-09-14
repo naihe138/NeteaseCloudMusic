@@ -1,7 +1,7 @@
 <template>
   <div class="m-body">
     <Side class="side" />
-    <div class="content">
+    <div class="content" ref="content">
       <keep-alive>
         <router-view></router-view>
       </keep-alive>
@@ -15,6 +15,19 @@
     name: 'Mbody',
     components: {
       Side
+    },
+    methods: {
+      scroll (e) {
+        if (this.scheduledAnimationFrame) return
+        this.scheduledAnimationFrame = true
+        window.requestAnimationFrame(() => {
+          this.scheduledAnimationFrame = false
+          this.$bus.emit('scroll', e)
+        })
+      }
+    },
+    mounted () {
+      this.$refs.content.addEventListener('scroll', this.scroll)
     }
   }
 </script>
@@ -38,6 +51,18 @@
       overflow-y: auto;
       box-sizing: border-box;
       position: relative;
+      &::-webkit-scrollbar-track {
+        // border: 1px solid black;
+        background-color: #FFF;
+      }
+      &::-webkit-scrollbar {
+        width: 8px;
+        background-color: #F5F5F5;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: #e1e1e1;
+        border-radius: 6px;
+      }
     }
   }
 </style>
