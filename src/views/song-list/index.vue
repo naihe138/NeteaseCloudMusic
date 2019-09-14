@@ -45,7 +45,8 @@
     height: 170px;
     display: flex;
     align-items: center;
-    background: linear-gradient(45deg, #85909c , #857b77, #89919a);
+    // background: linear-gradient(45deg, #85909c , #857b77, #89919a);
+    background: linear-gradient(45deg, #719ac6, #b88570, #3ba9b0);
     box-sizing: border-box;
     border-radius: 4px;
     padding: 0 15px;
