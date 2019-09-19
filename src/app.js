@@ -12,7 +12,5 @@ new Vue({
   router,
   store,
   components: { APP },
-  render () {
-    return (<APP />)
-  }
+  render: () => (<APP />)
 })
