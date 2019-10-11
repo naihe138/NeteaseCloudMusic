@@ -2,10 +2,12 @@
   <section class="main">
     <Mheader />
     <Mbody />
-    <Mfooter />
-    <div class="playbox">
-      <Player></Player>
-    </div>
+    <Mfooter @upplayer="upplayer" />
+    <transition name="sliceUp">
+      <div class="playbox" v-show="showPlayer">
+        <Player></Player>
+      </div>
+    </transition>
   </section>
 </template>
 
@@ -21,6 +23,16 @@
       Mfooter,
       Mbody,
       Player
+    },
+    data () {
+      return {
+        showPlayer: true
+      }
+    },
+    methods: {
+      upplayer () {
+        this.showPlayer = !this.showPlayer
+      }
     }
   }
 </script>
@@ -37,12 +49,20 @@
   }
   .playbox {
     position: absolute;
-    background: red;
+    background: #faf9fa;
+    height: 560px;
     top: 50px;
     left: 0;
-    z-index: 100;
+    z-index: 10;
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+  }
+  .sliceUp-enter-active, .sliceUp-leave-active {
+    transition: transform .3s;
+  }
+  .sliceUp-enter, .sliceUp-leave-to {
+    // opacity: 0;
+    transform: translate3d(0, 560px, 0);
   }
 </style>

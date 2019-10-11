@@ -5,7 +5,7 @@
     </div>
     <div class="footerContent">
       <div class="songInfo">
-        <img src="@/assest/abc.jpeg" alt="">
+        <img src="@/assest/abc.jpeg" alt="" @click="imgClick">
         <div class="songInfoContent">
           <p class="song">那个男人<span class="songAuthor"> - 萧敬腾</span></p>
           <p class="songTime">01:21 / 03:40</p>
@@ -27,11 +27,23 @@
   </section>
 </template>
 
+<script>
+  export default {
+    methods: {
+      imgClick () {
+        this.$emit('upplayer')
+      }
+    }
+  }
+</script>
+
 <style lang="scss" scoped>
   .mfooter {
     height: 60px;
     user-select: none;
     background: #ffffff;
+    position: relative;
+    z-index: 11;
   }
   .progress {
     height: 2px;

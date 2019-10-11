@@ -1,3 +1,26 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"), url("../../assest/fonts/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Light");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Semibold"), url("../../assest/fonts/SourceSansPro-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: local("Roboto Mono"), url("../../assest/fonts/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Dosis";
+  src: local("Dosis Medium"), url("../../assest/fonts/Dosis-Medium.ttf");
+  font-weight: 500;
+}
 body, h1, h2, h3, h4, h5, h6, p, li, ul, ol, input, textarea, button {
   margin: 0;
   padding: 0;
@@ -8,6 +31,7 @@ i {
 }
 
 body {
+  font-family: "Source Sans Pro", "Roboto Mono", "Dosis", Arial, sans-serif;
   font-size: 12px;
   color: #333333;
 }
