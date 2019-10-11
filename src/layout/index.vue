@@ -57,12 +57,13 @@
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0 20px 20px 30px;
   }
   .sliceUp-enter-active, .sliceUp-leave-active {
     transition: transform .3s;
   }
   .sliceUp-enter, .sliceUp-leave-to {
-    // opacity: 0;
     transform: translate3d(0, 560px, 0);
   }
 </style>
