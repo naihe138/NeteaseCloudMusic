@@ -34,7 +34,11 @@
         </ul>
         <div class="divice"></div>
       </div>
-      <div class="control"></div>
+      <div class="control">
+        <i class="iconfont iconshanghua1"></i>
+        <i class="iconfont iconxiahua"></i>
+        <i class="iconfont iconwenti-"></i>
+      </div>
     </div>
   </div>
 </template>
@@ -105,7 +109,22 @@
       }
     }
     .control {
-      width: 30px;
+      width: 20px;
+      position: relative;
+      padding-left: 5px;
+      i {
+        color: #e1e1e1;
+        position: absolute;
+        &:nth-of-type(1) {
+          top: 0;
+        }
+        &:nth-of-type(2) {
+          top: 50px;
+        }
+        &:nth-of-type(3) {
+          bottom: 0;
+        }
+      }
     }
   }
 </style>
