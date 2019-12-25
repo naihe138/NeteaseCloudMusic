@@ -38,6 +38,7 @@
 </script>
 
 <style lang="scss" scoped>
+  @import "../public/scss/comment.scss";
   .main {
     width: 1002px;
     height: 670px;
@@ -59,6 +60,7 @@
     overflow-y: auto;
     box-sizing: border-box;
     padding: 0 20px 20px 30px;
+    @include scrollbar(#faf9fa, #faf9fa);
   }
   .sliceUp-enter-active, .sliceUp-leave-active {
     transition: transform .3s;
